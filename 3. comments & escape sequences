@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+
+int main(){
+
+
+   //this is a comment blah
+   /*
+   this
+   is
+   a
+   multiline
+   comment
+   */
+   printf("I like pizza!\n");
+   return 0;
+}
+
+//////////////////////////////////////////////////////////////////
+#include <stdio.h>
+
+int main(){
+
+
+   /*
+   escape sequence = character combination consisting of a backslash \
+                     followed by a letter or combination of digits
+                     they specify actions within a line or string of text
+                     \n = new line
+                     \t = tab
+                    
+   */
+
+
+   printf("\"I like Pizza\" - Abraham Lincoln probably");
+   printf("\\how to print a backslash\\");
+   return 0;
+}
